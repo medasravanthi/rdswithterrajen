@@ -6,7 +6,7 @@ resource "aws_db_instance" "rds" {
   username             = var.main_db_username
   password             = "testtest"
   parameter_group_name = var.parameter_group_name
-#   availability_zone = "eu-west-1"
+  #availability_zone = "us-east-1a"
   skip_final_snapshot = true
   multi_az             = true
   # final_snapshot_identifier = "example-final-snapshot"
