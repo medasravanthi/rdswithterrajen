@@ -65,6 +65,6 @@ variable "sg_protocol" {
 }
 variable "sg_name" {
   type = string
-  default ="name"
+  default =""
 }
 
