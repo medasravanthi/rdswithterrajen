@@ -5,11 +5,11 @@ type = number
 default = "20"
 }
 variable "main_db_engine"{
-type = number
+type = string
 default = "MYSQL"
 }
 variable "main_db_instance_class"{
-type = number
+type = string
 default = "db.t2.micro"
 }
 variable "main_db_username" {
