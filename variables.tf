@@ -19,7 +19,7 @@ variable "parameter_group_name" {
     type = string
 default = "default.mysql8.0"
 }
-variable "password " {
+variable "password" {
 type = string  
 default = "baby.sravs"
 }
